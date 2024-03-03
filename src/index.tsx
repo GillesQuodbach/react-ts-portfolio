@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout/Layout';
 import Home from './pages/Home/Home';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import { store } from './store/store';
 
 
 const root = ReactDOM.createRoot(
