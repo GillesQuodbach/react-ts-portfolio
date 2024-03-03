@@ -19,7 +19,7 @@ header {
 
 .main-container {
   min-height: calc(100vh - 80px);
-  background-color: red;
+  background-color: pink;
 }
 
 footer {
