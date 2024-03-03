@@ -1,19 +1,17 @@
 import { Outlet, Link } from "react-router-dom"
+import Header from "./Header/Header"
+import Footer from "./Footer/Footer"
 
 const Layout = () => {
   return (
-    <>
-      <nav>
-        <h1>Hello from nav</h1>
-      </nav>
+    <div className="container flex justify-center vh-100 bg-warning">
+      <Header />
+      <div className="main-container container">
+        <Outlet />
+      </div>
+      <Footer />
 
-      <Outlet />
-
-
-      <footer>
-        <h2>Hello from footer</h2>
-      </footer>
-    </>
+    </div>
   )
 }
 
